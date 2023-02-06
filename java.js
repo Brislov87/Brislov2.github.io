@@ -1,8 +1,9 @@
 //*Nedräkning till examen
 
 const timeLeft = document.getElementById('examen')
-
 const examen = new Date('06/09/2024')
+
+//* Förklaring för hur tiden ska räknas ut i millisekunder
 const second = 1000
 const minute = second * 60
 const hour = minute * 60
@@ -10,13 +11,12 @@ const day = hour * 24 //
 let timerId
 
 
-
+//* Här blir det nedräkning av mellanskillnaden i tid mellan today och examensdatumet som är satt
 function countDown(){
     const today = new Date()
     const timeSpan = examen - today
 
-
-
+//* Här kommer de som syns som nedräkning, mathfloor ser till att de inte blir massa decimaler, timespan hämtas från const tiemspan som är examen-idag
 const days = Math.floor(timeSpan / day)
 const hours = Math.floor((timeSpan % day) / hour)
 const minutes = Math.floor((timeSpan % hour) / minute)
@@ -30,9 +30,9 @@ console.log(examen)
 
 
 
-//*Välkommen till min hemsida
+//*Välkommen till min portfolio
 
-const text = document.querySelector('.hemsida');
+const text = document.querySelector('.portfolio');
 const strText = text.textContent;
 const splitText = strText.split("");
 text.textContent = "";
