@@ -1,4 +1,6 @@
 # Brislov2.github.io
+https://brislov87.github.io/Brislov2.github.io/
+
 inlämning 2
 
 WCAG-kriteriet 1.4.3 - Använd tillräcklig kontrast mellan text och bakgrund.
