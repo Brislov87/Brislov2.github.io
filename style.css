@@ -159,6 +159,9 @@
     .parkeriz {
         background-image: url(parkeriz.png);
         }
+    .swish {
+            background-image: url(swish.png);
+        }
     
     .card {
         padding: 10px;
